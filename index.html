@@ -6,7 +6,7 @@
 
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 
@@ -14,70 +14,78 @@
 
 <header>
   <img id="logo" src="images/logo.png" alt="株式会社サンプル・サイト" width="220" height="44">
-  <nav>
+  <nav id="top_nav">
     <ul>
       <li id="current"><a href="#">ホーム</a></li>
-      <li><a href="#">お知らせ</a></li>
+      <li><a href="#concept">会社概要</a></li>
+      <li><a href="#info">お知らせ</a></li>
       <li><a href="#">製品情報</a></li>
       <li><a href="#">サービス</a></li>
-      <li><a href="#">会社概要</a></li>
-      <li><a href="#">お問い合わせ</a></li>
     </ul>
   </nav>
+
   <img src="images/mainvisual.jpg" alt="日本のサンプルのリーディング・カンパニーを目指します。" width="900" height="350">
 </header>
 
 <main>
   <section>
-    <h1>サンプルだからこその“カタチ”がある</h1>
-    <p>わかりやすいサンプルはどうあるべきなのか？　その<a href="#">答え</a>を知っているかどうかで<a href="#">サンプルの出来映え</a>は決まってきます。これはサンプルのテキストです。これはサンプルのテキストです。これはサンプルのテキストです。これはサンプルのテキストです。これはサンプルのテキストです。
+    <h1 id="concept">サンプルだからこその“カタチ”がある</h1>
+    <div id="concept_massage">
+    <p>わかりやすいサンプルはどうあるべきなのか？　その答えを知っているかどうかでサンプルの出来映えは決まってきます。これはサンプルのテキストです。これはサンプルのテキストです。これはサンプルのテキストです。これはサンプルのテキストです。これはサンプルのテキストです。
     </p>
     <p>これはサンプルのテキストです。これはサンプルのテキストです。これはサンプルのテキストです。これはサンプルのテキストです。これはサンプルのテキストです。
     </p>
+  </div>
   </section>
 </main>
 
-<div id="sub">
-  <aside>
-    <section>
-      <h2>最高のサンプルを驚きのプライスで！</h2>
-      <p><img src="images/yen.png" width="45" height="45" alt="">
-これはサンプルのサイドバーのテキストです。これはサンプルのサイドバーのテキストです。これはサンプルのサイドバーのテキストです。
-      </p>
-    </section>
-    <section>
-      <h2>CM「サンプルプルルン♪」メイキング公開</h2>
-      <p><img src="images/play.png" width="45" height="45" alt="">
-これはサンプルのサイドバーのテキストです。これはサンプルのサイドバーのテキストです。これはサンプルのサイドバーのテキストです。
-      </p>
-    </section>
-  </aside>
-</div>
 
 <footer>
+  <div id="footer_box">
+  <h2 id="#info">お知らせ</h2>
   <aside>
-    <section>
-      <h2>一瞬でわかるサンプル</h2>
-      <p>
-これはサンプルのフッターのテキストです。これはサンプルのフッターのテキストです。これはサンプルのフッターのテキストです。これはサンプルのフッターのテキストです。
+    <section class="right_bar">
+      <h3>最新情報1</h3>
+      <p class="new_info_text">
+        ここには最新情報がきますここには最新情報がきますここには最新情報がきますここには最新情報がきますここには最新情報がきます
       </p>
     </section>
-    <section>
-      <h2>見えない部分へのこだわり</h2>
-      <p>
-これはサンプルのフッターのテキストです。これはサンプルのフッターのテキストです。これはサンプルのフッターのテキストです。これはサンプルのフッターのテキストです。
+    <section class="right_bar">
+      <h3>最新情報2</h3>
+      <p class="new_info_text">
+        ここには最新情報がきますここには最新情報がきますここには最新情報がきますここには最新情報がきますここには最新情報がきます
       </p>
     </section>
-    <section>
-      <h2>社会活動・環境活動</h2>
-      <p>
-これはサンプルのフッターのテキストです。これはサンプルのフッターのテキストです。これはサンプルのフッターのテキストです。これはサンプルのフッターのテキストです。
-      </p>
+    <section "no_bar">
+        <p class="more_info">
+          more->
+        </p>
     </section>
   </aside>
+
+
+  <div id="pagetop"><span class="jump_text">▲pagetop</span></div>
+
+
+<div id="footer_bottom_box">
+  <nav id="bottom_nav">
+    <ul>
+      <li id="current"><a href="#">ホーム</a></li>
+      <li><a href="#concept">会社概要</a></li>
+      <li><a href="#info">お知らせ</a></li>
+      <li><a href="#">製品情報</a></li>
+      <li><a href="#">サービス</a></li>
+    </ul>
+  </nav>
+
+
+
   <p id="copyright">
     <small>Copyright &copy; 2014 sample site. All rights reserved.</small>
   </p>
+
+</div>
+</div>
 </footer>
 
 </div>
