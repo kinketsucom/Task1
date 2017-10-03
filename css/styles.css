@@ -81,19 +81,22 @@ footer section:nth-child(2) {
 
 #pagetop{
   clear: both;
-  margin-right: 100px;
+  margin-right: 70px;
   text-align: right;
+
 }
-.jump_text{
+a.jump_text{
   background-color: #320000;
   color: #ffffff;
+  text-decoration: none;
   padding: 5px;
+  margin-bottom: 0px;
 }
 #copyright {
   clear: both;
 }
 #footer_bottom_box{
-  background-color: #999999;
+ background-color: #999999;
 }
 
 /* ヘッダー
@@ -136,22 +139,23 @@ nav#top_nav a {
 
 nav#bottom_nav ul {
   list-style-type: none;
-	padding-left: 0;
   line-height: 1.0;
-}
-nav#bottom_nav li, nav a {
-  display: inline-block;
+
   text-align: center;
 }
 nav#bottom_nav li {
-  float: left;
-  border-right: 1px solid #ddd;
+  font-size: small;
+
+  width: 80px;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block;
 }
-nav#bottom_nav a {
-  padding: 15px 25px;
-  font-weight: bold;
-  text-decoration: none;
-  text-shadow: 1px 1px 0 #fff;
+nav#bottom_nav a{
+    color: #ffffff;
+    text-decoration: none;
 }
 
 
